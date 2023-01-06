@@ -1,12 +1,14 @@
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .btn-primary {
     width: 160px;
     height: 64px;
     border: none;
+    border-radius: 10px;
 }
 
 .btn-primary a {
@@ -14,7 +16,15 @@
     color: #005FAC;
     font-weight: 600;
     font-size: 20px;
+    font-weight: bold;
+
 }
+
+.btn-primary:hover a {
+
+    color: #181818
+}
+
 
 .header {
     background-image: url('../images/banner/banner3.png');
@@ -24,16 +34,17 @@
     height: 880px;
 }
 
-/* banner styles  */
+/* banner styles start here */
 .banner {
     text-align: right;
     padding: 216px 230px 364px 845px;
+
 }
 
 
 .banner .banner-title {
     font-weight: 700;
-    font-size: 65px;
+    font-size: 55px;
     line-height: 76px;
     text-align: right;
     color: #FFFFFF;
@@ -48,14 +59,17 @@
     line-height: 26px;
     color: #FFFFFF;
     margin-bottom: 32px;
+    padding: 10px;
 }
 
 /* banner styles end here  */
-/* main section styles */
+
+/* main section styles start */
 
 main {
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 130px;
 }
 
 /* about section styles here  */
@@ -70,17 +84,37 @@ main {
 
 .about-section {
     padding-right: 20px;
-    margin-top: 300px;
+    padding-top:150px;
+  
 }
 
 .about-container .img {
-    /* width: 569px;
-    height: 723.3px; */
+  
     padding: 206px 131px;
 }
 
-/* my-plan section styles  */
-.my-plan {}
+.about-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.about-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 11px;
+}
+/* about section styles end here  */
+/* my-plan section styles start here */
+.my-plan {
+    margin: 129px 0px;
+    padding: 20px;
+
+}
 
 .my-plan-section {
     text-align: center;
@@ -90,14 +124,22 @@ main {
 
 .skills-container {
     display: flex;
-}
+    gap: 86px;
 
+}
+ 
+/* .skill img{
+    width: 100px;
+    margin: 0px auto;
+} */
 .skill .skill-title {
     color: #151414;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 35px;
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
 
 }
 
@@ -107,4 +149,108 @@ main {
     font-size: 25px;
     line-height: 29px;
     text-align: center;
+}
+/* skills section styles end here  */
+
+/* always styles start here  */
+.always-keep {
+    padding: 131px 40px;
+
+}
+
+.always-section {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+
+}
+
+.always-section .always-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+/* always  styles end here  */
+
+/* footer start styles  */
+
+footer {
+    max-width: 100%;
+
+}
+
+.contact {
+    display: flex;
+    gap: 331px;
+    background: #151414;
+    padding: 130px 230px;
+
+}
+
+.contact .contact-title {
+    text-align: left;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+}
+
+.contact .contact-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.contact .contact-subtitle {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-top: 32px;
+}
+
+.contact input[type="text"] {
+    margin-bottom: 34px;
+    border: 0;
+    width: 100%;
+    padding: 10px 30px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.contact input[type="submit"]{
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
+}
+.contact input[placeholder] {
+    font-size: 1.2rem;
+}
+
+input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact-right-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 28px;
 }
