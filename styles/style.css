@@ -108,6 +108,18 @@ main {
     line-height: 26px;
     margin-bottom: 11px;
 }
+
+/* list-style-type  styles start  */
+.about-section .list-style{
+    list-style-type: circle;
+    list-style-position:inside;
+    list-style-image:url("../images/list_style.png");
+
+
+}
+/* .list-style-type end here  */
+
+
 /* about section styles end here  */
 /* my-plan section styles start here */
 .my-plan {
@@ -128,16 +140,18 @@ main {
 
 }
  
-/* .skill img{
-    width: 100px;
-    margin: 0px auto;
-} */
+.skill img{
+    width:120px;
+    height:0px auto;
+    text-align:left;
+  
+}
 .skill .skill-title {
     color: #151414;
     font-weight: 700;
     font-size: 20px;
     line-height: 35px;
-    text-align: center;
+    text-align:left;
     margin-top: 24px;
     margin-bottom: 16px;
 
@@ -146,9 +160,8 @@ main {
 .skill .skill-description {
     color: #737272;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
+    font-size: 15px;
+    text-align:justify;
 }
 /* skills section styles end here  */
 
@@ -177,6 +190,8 @@ main {
     margin-bottom: 24px;
 }
 /* always  styles end here  */
+
+/* main section styles end here  */
 
 /* footer start styles  */
 
@@ -254,3 +269,4 @@ input {
     line-height: 48px;
     margin-bottom: 28px;
 }
+/* footer styles ends here  */
