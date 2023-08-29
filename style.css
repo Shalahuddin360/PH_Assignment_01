@@ -1,0 +1,286 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btn-primary:hover a {
+
+    color: #181818
+}
+
+
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 880px;
+}
+
+/* banner styles start here */
+.banner {
+    text-align: right;
+    padding: 216px 230px 364px 845px;
+
+}
+
+
+.banner .banner-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.banner-description {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    padding: 10px;
+}
+
+/* banner styles end here  */
+
+/* main section styles start */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+/* about section styles here  */
+.about {
+    margin-top: 131px;
+}
+
+.about-container {
+    display: flex;
+    gap: 87px;
+}
+
+.about-section {
+    padding-right: 20px;
+    padding-top:150px;
+  
+}
+
+.about-container .img {
+  
+    padding: 206px 131px;
+}
+
+.about-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.about-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 11px;
+}
+
+/* list-style-type  styles start  */
+.about-section .list-style{
+    list-style-type: circle;
+    list-style-position:inside;
+    list-style-image:url("../images/list_style.png");
+
+
+}
+/* .list-style-type end here  */
+
+
+/* about section styles end here  */
+/* my-plan section styles start here */
+.my-plan {
+    margin: 129px 0px;
+    padding: 20px;
+
+}
+
+.my-plan-section {
+    text-align: center;
+    margin: 130px 0px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 86px;
+
+}
+ 
+.skill img{
+    width:120px;
+    height:0px auto;
+    text-align:left;
+  
+}
+.skill .skill-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-align:left;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+}
+
+.skill .skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 15px;
+    text-align:justify;
+}
+/* skills section styles end here  */
+
+/* always styles start here  */
+.always-keep {
+    padding: 131px 40px;
+
+}
+
+.always-section {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+
+}
+
+.always-section .always-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+/* always  styles end here  */
+
+/* main section styles end here  */
+
+/* footer start styles  */
+
+footer {
+    max-width: 100%;
+
+}
+
+.contact {
+    display: flex;
+    gap: 331px;
+    background: #151414;
+    padding: 130px 230px;
+
+}
+
+.contact .contact-title {
+    text-align: left;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+}
+
+.contact .contact-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.contact .contact-subtitle {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-top: 32px;
+}
+
+.contact input[type="email"] {
+    margin-bottom: 34px;
+    border: 0;
+    width: 100%;
+    padding: 10px 30px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #323232;
+  
+   
+}
+
+.contact input[type="submit"]{
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
+    cursor:pointer;
+
+}
+.contact input[type="submit"]:hover{
+    background: #323232;
+}
+.contact input[placeholder] {
+    font-size: 1.2rem;
+    color: #F8F8F8;
+    font-weight: 800;
+
+    
+}
+
+input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact-right-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 28px;
+}
+/* footer styles ends here  */
